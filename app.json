@@ -13,24 +13,35 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.rocketseat igniteshoes"
+      "bundleIdentifier": "com.rocketseat.igniteshoes"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "com.anonymous.igniteshoes"
+      "package": "com.rocketseat.igniteshoes"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      // [
+      //   "expo-build-properties",
+      //   {
+      //     "android": {
+      //       "compileSdkVersion": 33,
+      //       "targetSdkVersion": 33,
+      //       "buildToolsVersion": "33.0.0"
+      //     },
+      //     "ios": {
+      //       "deploymentTarget": "15.1"
+      //     }
+      //   }
+      // ],
       [
         "onesignal-expo-plugin",
         {

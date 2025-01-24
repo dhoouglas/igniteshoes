@@ -15,6 +15,7 @@ import { CartContextProvider } from "./src/contexts/CartContext";
 import { OneSignal } from "react-native-onesignal";
 
 OneSignal.initialize("57e42e81-5b5f-434f-93a5-5f922e5df190");
+OneSignal.Notifications.requestPermission(true);
 
 export default function App() {
   const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
