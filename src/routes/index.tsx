@@ -10,7 +10,6 @@ import {
 } from "react-native-onesignal";
 
 import { Notification } from "../components/Notification";
-import config from "../../metro.config";
 
 const linking = {
   prefixes: ["igniteshoes://", "com.rocketseat.igniteshoes://"],
